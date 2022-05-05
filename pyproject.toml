@@ -20,3 +20,10 @@ ipython = "^8.3.0"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.yapf]
+style = "pep8"
+based_on_style = "flake8"
+spaces_before_comment = 4
+split_before_logical_operator = true
+
